@@ -1,0 +1,49 @@
+.grid{
+    display:grid;
+    grid-template-columns:66.66% 33.34% ;
+}
+
+@media screen and (max-width:1092px){
+    .grid{
+        grid-template-columns: 100%;
+    }
+}
+
+.content{
+    margin: 1rem;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.span-data span{
+    margin: 0.3rem;
+    padding: 0.2rem;
+    background-color:  grey;
+}
+
+.span-data span:first-child{
+    background-color: black;
+    color:white
+}
+
+.shadow{
+    box-shadow: 2px 2px #eae5e5;
+}
+
+footer button{
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 1rem;
+}
+
+footer button:first-child{
+    background-color: grey;
+    box-shadow: none;
+}
+
+footer button:last-child{
+    background-color: black;
+    color: white;
+}
